@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    background-color:rgb(106, 106, 109);
+    width: 100%;
+    border: 2px solid white;
+    align-items: center;    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 25px;
+    }
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu li a:hover{
+    color:green;
+}
+
+.contenedor-banner{
+    width: 100%;
+    background-size: auto; 
+}
+
+.contenedor-servicios{
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    text-decoration:wavy;
+    text-transform: uppercase;
+    margin: 100px;
+    position:relative;
+    top: 400;
+    right: 600;
+    animation: change-color 5s;
+   }
+    
+@keyframes change-color {
+    0% {background: transparent;}
+    50% {background: grey;}
+    100% {background: black;}
+}
+.contenedor-mapa{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    padding: auto;
+}
+
+.contenedor-enlaces{
+    list-style: none;
+    margin: 50px;
+    padding: 20px;
+    
+  }
+
+.contenedor-enlaces li a{
+    color: white;
+}
+
+.contenedor-enlaces li a:hover{
+    color: yellowgreen;
+}
+
+.contenedor-enlaces li a:visited{
+    color:violet;
+}
+.lista-enlaces{
+    text-decoration: none;
+}
+
+.contenedor-redes{
+    text-decoration: none;
+ }
+.contenedor-footer{
+    display: flex;
+    justify-content: center;
+  }
+
+p {
+    display:block;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    border: 2px solid white;
+    grid-template-rows: repeat(4, 200px);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    border: 2px solid white;
+}
+
+.grid-item:first-child {
+    grid-row: 1 / 5;
+    grid-column: 1 / 3;
+}
+
+/* Mobile*/
+@media screen and (max-width: 480px) {
+    body {
+        background-color: black;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  body {
+      background-color: grey;
+  }  
+}
+
+.seccion-servicios {
+    display:flex;
+    justify-content:center;
+    margin: 60px;
+    }
+
+.imag:hover {
+    transform: scale(1.3);
+    transition: all 0.5s;
+    }
+
+p {
+    margin: auto ;
+}

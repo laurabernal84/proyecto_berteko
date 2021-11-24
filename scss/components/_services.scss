@@ -1,0 +1,42 @@
+.contenedor-servicios {
+    font-size: 25px;
+    font-weight: bold;
+    color:$background-home;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    text-decoration:wavy;
+    text-transform: uppercase;
+    margin: 100px;
+    position:relative;
+    top: 400;
+    right: 600;
+    animation: change-color 5s;
+}
+
+//  @keyframes change-color {
+//     0% {background: transparent;}
+//     50% {background: grey;}
+//     100% {background:$background-home;}
+//  }
+
+.servicios-card{
+    width: 33%;
+}
+
+.servicios-card img{
+border-radius: 15%;
+opacity: .5;
+margin-bottom: 50px;
+}
+
+.servicios-card img:hover{
+    opacity: 1;
+    transform: scale(1.3);
+    transition: all 0.5s;
+    }
+
+
+

@@ -1,0 +1,89 @@
+/* nesting*/
+
+.description {
+  text-decoration-color: black;
+  text-align: center;
+}
+/* Mobile*/
+@media screen and (max-width: 480px) {
+  body {
+    background-color: black;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  body {
+    background-color: grey;
+  }
+}
+footer {
+  background-color: black;
+}
+footer div {
+  list-style: none;
+  margin: 50px;
+  padding: 20px;
+}
+footer div nav ul {
+  text-decoration: none;
+}
+footer div nav ul li a {
+  text-decoration: none;
+  color: greenyellow;
+}
+footer div nav ul li a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.contenedor-servicios {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  margin: 100px;
+  position: relative;
+  top: 400;
+  right: 600;
+  animation: change-color 5s;
+}
+
+.servicios-card {
+  width: 33%;
+}
+
+.servicios-card img {
+  border-radius: 15%;
+  opacity: 0.5;
+  margin-bottom: 50px;
+}
+
+.servicios-card img:hover {
+  opacity: 1;
+  transform: scale(1.3);
+  transition: all 0.5s;
+}
+
+.seccion-mapa {
+  background-color: grey;
+}
+
+.contenedor-mapa {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  padding: auto;
+}
+
+iframe {
+  width: 90%;
+}
+
+/*# sourceMappingURL=style.css.map */

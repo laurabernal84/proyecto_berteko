@@ -1,0 +1,16 @@
+
+.seccion-mapa {
+    background-color:nth($colores, 2);
+}
+
+.contenedor-mapa{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    padding: auto;
+}
+
+iframe{
+    width: 90%;
+}

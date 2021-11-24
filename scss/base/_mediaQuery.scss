@@ -1,0 +1,13 @@
+/* Mobile*/
+@media screen and (max-width: 480px) {
+    body {
+        background-color: black;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  body {
+      background-color: grey;
+  }  
+}
